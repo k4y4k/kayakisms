@@ -9,5 +9,4 @@ npm package that prints a cool message to the console. 100% genuine kayakism.
 0. Install node, npm, this package, etc. You know the drill.
 1. `const kayak = require('kayakisms')`
 2. `kayak.beKayak()`
-
-You can also call `whatNow()` or `wakkaKakka()`.
+3. Do whatever with the string that it returns.

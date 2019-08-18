@@ -10,7 +10,9 @@ const strings = [
   "bonza",
   "yeah so anyway I came up with this idea while waiting in line at sevo levo (7-Eleven for the uninitiated)",
   "could honestly smash 17,000 lamingtons right now, like seriously",
-  "I'm the goddamn Vegemite Fairy and that's a job I'm proud to do."
+  "I'm the goddamn Vegemite Fairy and that's a job I'm proud to do.",
+  "Here's the 4-1-1: I'm, like, super hungry and if anyone could pass me a handful of chips that would be great",
+  "Rainbow Paddlepops are life"
 ];
 
 exports.beKayak = () => strings[Math.floor(Math.random() * strings.length)];
