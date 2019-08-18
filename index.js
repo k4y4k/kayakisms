@@ -13,6 +13,4 @@ const strings = [
   "I'm the goddamn Vegemite Fairy and that's a job I'm proud to do."
 ];
 
-console.log(strings[Math.floor(Math.random() * strings.length)]);
-
-exports.beKayak = () => console.log("This is a message from the demo package");
+exports.beKayak = () => strings[Math.floor(Math.random() * strings.length)];
